@@ -46,7 +46,8 @@ body{
 }
 .main{
   margin: 0;
-  height: 99vh;
+  height: 98vh;
+  width: auto;
   background-color: rgb(14, 3, 42); 
   padding: 60px;
 }
