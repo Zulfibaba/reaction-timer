@@ -1,6 +1,6 @@
 <template>
   <div class="block-outline" v-if="!showblock">
-    Click Here asap the block appears
+    Click Here Asap When the block appears
   </div>
   <div class="block" v-if="showblock" @click="stopTimer">Click Me</div>
 </template>
