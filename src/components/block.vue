@@ -1,5 +1,7 @@
 <template>
-  <div class="block-outline" v-if="!showblock" >Click Here asap the block appears</div>
+  <div class="block-outline" v-if="!showblock">
+    Click Here asap the block appears
+  </div>
   <div class="block" v-if="showblock" @click="stopTimer">Click Me</div>
 </template>
 
@@ -58,5 +60,13 @@ export default {
   text-align: center;
   padding: 100px 0;
   margin: 40px auto;
+}
+@media only screen and (max-width: 600px) {
+  .block {
+    width: auto;
+  }
+  .block-outline {
+    width: auto;
+  }
 }
 </style>
