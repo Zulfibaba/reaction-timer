@@ -41,14 +41,14 @@ export default {
 </script>
 
 <style>
-body{
+body {
   margin: 0;
 }
-.main{
+.main {
   margin: 0;
   height: 98vh;
   width: auto;
-  background-color: rgb(14, 3, 42); 
+  background-color: rgb(14, 3, 42);
   padding: 60px;
 }
 #app {
